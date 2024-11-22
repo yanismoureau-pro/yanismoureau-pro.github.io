@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personnel</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #333;
+            margin-bottom: 40px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .section {
+            width: 80%;
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center; /* Centrer verticalement l'image et le texte */
+            justify-content: space-between; /* Espacer image et texte */
+        }
+        .section img {
+            width: 40%; /* L'image occupe 40% de la largeur de son conteneur */
+            max-width: 400px;
+            border-radius: 8px;
+        }
+        .section p {
+            font-size: 1.2em;
+            color: #333;
+            width: 55%; /* Le texte occupe 55% de la largeur */
+        }
+        .souligne {
+            color: #007BFF;
+            text-decoration: underline;
+        }
+        .text-only-section {
+            width: 80%;
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .section {
+                width: 90%;
+                flex-direction: column; /* Empiler l'image et le texte sur les petits écrans */
+                align-items: center;
+            }
+            .section img {
+                width: 80%; /* Réduire la taille des images sur petits écrans */
+                margin-bottom: 20px; /* Ajouter un espace sous l'image */
+            }
+            .section p {
+                width: 100%; /* Le texte prend toute la largeur sous l'image */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Titre Personnel -->
+    <h1>Personnel</h1>
+
+    <!-- Section texte sans image -->
+    <div class="text-only-section">
+        <p>Depuis maintenant un an, j'ai créé ma micro-entreprise spécialisée dans la fabrication de montres personnalisées. Mon activité consiste à concevoir des montres originales que je réalise moi-même, en fonction de mes goûts et de mes inspirations. Ces montres sont ensuite mises en vente sur mon site web. De plus, je propose également un service sur-mesure, où je fabrique des montres personnalisées en fonction des demandes spécifiques de mes clients. Cette expérience m'a permis d'acquérir des compétences en gestion d'entreprise, en création de produits personnalisés, et en vente en ligne.</p>
+    </div>
+
+    <div class="section">
+        <img src="images/Yan1.jpg" alt="Travail d'équipe" />
+        <p>J'ai ainsi créé ma boutique en ligne sous le nom de Yan Smode, qui est l'identité de mon entreprise. Pour maximiser les ventes et attirer davantage de clients, j'ai mis en place divers outils stratégiques tels que des pop-ups ciblés et des suggestions de produits complémentaires. J'ai également optimisé le référencement de mon site en utilisant des techniques de SEO (référencement naturel) et de SEA (référencement payant), afin d'améliorer sa visibilité sur les moteurs de recherche et de générer un trafic qualifié. Ces actions ont pour objectif d'accroître la notoriété de ma boutique et d'optimiser l'expérience client pour favoriser les conversions.</p>
+    </div>
+
+    <div class="section">
+        <img src="images/Yan2.jpg" alt="Gestion du temps" />
+        <p>Je fais la promotion de mes produits sur des plateformes sociales comme TikTok et Instagram en créant des vidéos courtes où je montre le processus de fabrication de mes montres. Dans chaque vidéo, j'ajoute ma voix off accompagnée de musique, ce qui permet de donner un côté plus humain et authentique à mes contenus. Cette approche crée une connexion plus personnelle avec mon audience et rend les vidéos plus engageantes. Elle a d'ailleurs montré une grande efficacité, en générant une interaction positive et en renforçant l'intérêt des spectateurs pour mes produits.</p>
+    </div>
+
+</body>
+</html>

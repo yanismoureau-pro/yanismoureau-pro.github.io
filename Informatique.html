@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Compétences</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #333;
+            margin-bottom: 40px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .section {
+            width: 80%;
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center; /* Centrer verticalement l'image et le texte */
+            justify-content: space-between; /* Espacer image et texte */
+        }
+        .section img {
+            width: 40%; /* L'image occupe 40% de la largeur de son conteneur */
+            max-width: 400px;
+            border-radius: 8px;
+        }
+        .section p {
+            font-size: 1.2em;
+            color: #333;
+            width: 55%; /* Le texte occupe 55% de la largeur */
+        }
+        .souligne {
+            color: #007BFF;
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .section {
+                width: 90%;
+                flex-direction: column; /* Empiler l'image et le texte sur les petits écrans */
+                align-items: center;
+            }
+            .section img {
+                width: 80%; /* Réduire la taille des images sur petits écrans */
+                margin-bottom: 20px; /* Ajouter un espace sous l'image */
+            }
+            .section p {
+                width: 100%; /* Le texte prend toute la largeur sous l'image */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Informatique</h1>
+
+    <div class="section">
+        <img src="images/CANVA EX.jpg" alt="Canva Ex" />
+        <p>Au cours de mes études, j'ai acquis des compétences en utilisation de Canva pour la création de visuels professionnels, notamment pour la réalisation de présentations orales. Cette expérience m'a permis de développer une solide maîtrise de la création graphique, ainsi que de la mise en page et de l'élaboration de designs visuellement attractifs et percutants. J'ai ainsi appris à allier esthétisme et fonctionnalité, tout en veillant à l'impact visuel et à la clarté de l'information présentée.</p>
+    </div>
+
+    <div class="section">
+        <img src="images/EXCEL.jpg" alt="Excel" />
+        <p>Au cours de mes études, j'ai acquis une solide maîtrise de la création de tableaux croisés dynamiques sous Excel, ce qui m'a permis de perfectionner mes compétences dans l'utilisation avancée des tableurs et des formules Excel. Cette expérience m'a non seulement aidé à analyser et organiser des données complexes de manière plus efficace, mais m'a également permis d'améliorer ma capacité à interpréter des résultats, à automatiser des processus et à présenter des informations de manière claire et structurée.</p>
+    </div>
+
+    <div class="section">
+        <img src="images/GIMP.jpg" alt="GIMP" />
+        <p>Au cours de mes études, j'ai appris à utiliser GIMP pour éditer et retoucher des images, ce qui m'a permis de renforcer mes compétences en manipulation d'images et en utilisation des calques. Cette expérience m'a également permis de maîtriser diverses techniques de retouche photo, telles que l'ajustement des couleurs, la correction des imperfections et l'optimisation des images pour différents supports. Grâce à GIMP, j'ai développé une approche créative et technique qui me permet de produire des visuels de qualité, tout en garantissant leur adéquation avec les besoins spécifiques des projets.</p>
+    </div>
+
+    <!-- Nouvelle section "Site Web" -->
+    <div class="section">
+        <img src="images/SiteWeb.jpg" alt="Site Web" />
+        <p>Au cours de mes études, j'ai aussi approfondi mes connaissances dans la création et la gestion de sites web, en apprenant à utiliser divers outils et langages de programmation. Cette expérience m'a permis de développer des compétences en conception de sites intuitifs, fonctionnels et esthétiques, tout en optimisant leur performance pour offrir une expérience utilisateur optimale.</p>
+    </div>
+
+</body>
+</html>

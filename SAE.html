@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Compétences</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #333;
+            margin-bottom: 40px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .section {
+            width: 80%;
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center; /* Centrer verticalement l'image et le texte */
+            justify-content: space-between; /* Espacer image et texte */
+        }
+        .section img {
+            width: 40%; /* L'image occupe 40% de la largeur de son conteneur */
+            max-width: 400px;
+            border-radius: 8px;
+        }
+        .section p {
+            font-size: 1.2em;
+            color: #333;
+            width: 55%; /* Le texte occupe 55% de la largeur */
+        }
+        .souligne {
+            color: #007BFF;
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .section {
+                width: 90%;
+                flex-direction: column; /* Empiler l'image et le texte sur les petits écrans */
+                align-items: center;
+            }
+            .section img {
+                width: 80%; /* Réduire la taille des images sur petits écrans */
+                margin-bottom: 20px; /* Ajouter un espace sous l'image */
+            }
+            .section p {
+                width: 100%; /* Le texte prend toute la largeur sous l'image */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Titre Informatique sans cadre blanc -->
+    <h1>SAE</h1>
+
+    <div class="section">
+        <img src="images/1.jpg" alt="Canva Ex" />
+        <p>Dans le cadre de mes études, j'ai participé à une SAE (Situation d'Apprentissage et d'Évaluation) en réalisant une étude marketing visant à évaluer le potentiel d'un produit au sein d'une marque déjà implantée sur le marché. L'objectif était d'analyser l'intérêt de développer ce produit en fonction de la demande du marché et des attentes des consommateurs. Cette expérience m'a permis de développer mes compétences en analyse de marché, en stratégie de développement produit et en prise de décision éclairée.</p>
+    </div>
+
+    <div class="section">
+        <img src="images/2.jpg" alt="Excel" />
+        <p>Dans le cadre de mes études, j'ai participé à une SAE Transverse, où l'objectif était de créer une marque de bière, en réalisant à la fois le logo et le packaging. Cette étude m'a permis de développer une approche créative et stratégique, en tenant compte des attentes du marché, de l'identité de la marque et de son positionnement. Cette expérience m'a permis d'acquérir des compétences en conception graphique, en branding et en gestion de projet, tout en renforçant ma capacité à travailler en équipe et à prendre des décisions créatives et efficaces.</p>
+    </div>
+
+    <div class="section">
+        <img src="images/3.jpg" alt="GIMP" />
+        <p>Dans le cadre de mes études, j'ai participé à une SAE Communication Commerciale, où nous devions concevoir une plaquette commerciale en choisissant les visuels, les couleurs et la mise en page. L'objectif était de créer un document attractif et efficace, qui reflète l'image de la marque tout en répondant aux attentes du public cible. Cette expérience m'a permis de développer mes compétences en communication visuelle, en stratégie commerciale et en création de supports de communication percutants.</p>
+    </div>
+
+</body>
+</html>
